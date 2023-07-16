@@ -54,16 +54,92 @@ for(var i=0; i<items.length; i++){
 
 // query selector
 
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px #ccc';
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px #ccc';
 
+// var input = document.querySelector('input');
+// input.value = 'Hello World';
 
+// var submit = document.querySelector('input[type="submit"]')
+// submit.value ="SEND";
+
+var header  = document.querySelector('#main-header');
+header.style.border5Bottom = 'solid 4px #ccc';
 
 var input = document.querySelector('input');
 input.value = 'Hello World';
 
-var submit = document.querySelector('input[type="submit"]')
-submit.value ="SEND";
+var submit = document.querySelector('input[type="submit"]');
+submit.value = 'SEND';
+
+var item = document.querySelector('.list-group-item');
+item.style.color = 'red';
+item.style.color = 'green';
+
+var lastItem = document.querySelector('.list-group-item:last-child');
+lastItem.style.color = 'blue';
+
+var secItem = document.querySelector('.list-group-item:nth-child(2)');
+secItem.style.color = 'grey';
+
+var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+thirdItem.style.color = '#f4f4f4';
+
+//query selector all
+
+var titles = document.querySelectorAll('.title');
+console.log (titles);
+
+titles[0].textContent = 'Arvind Keshri';
+var odd = document.querySelectorAll('li:nth-child(odd)');
+var even = document.querySelectorAll('li:nth-child(even)');
+for(var i=0; i<odd.length; i++){
+    odd[i].style.backgroundColor = '#f4f4f4';
+    even[i].style.backgroundColor = '#ccc';
+    even[0].style.backgroundColor = 'green';
+
+}
+
+v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
